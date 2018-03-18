@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Ejemplo HTML5 - Aplicaciones Web</title>
+		<meta name="description" content="" />
+		<meta name="author" content="mangekyou" />
+
+		<meta name="viewport" content="width=device-width  initial-scale=1.0" />
+
+		<style>
+			.main-container {
+				font-size: large;
+				width: 100%;
+				height: 89%;
+				display: none;
+				visibility: hidden;
+				opacity: 0;
+			}
+			.no-visible {
+				display: none;
+				visibility: hidden;
+			}
+
+			.active {
+				display: block !important;
+				visibility: visible !important;
+				opacity: 1;
+				-webkit-animation: myAnimation 1s 1; /* Chrome, Safari 5+ */
+				-moz-animation: myAnimation 1s 1; /* Firefox 5-15 */
+				-o-animation: myAnimation 1s 1; /* Opera 12.00 */
+				animation: myAnimation 1s 1; /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */
+			}
+		</style>
+
+		<script src="valida_y_cambia_pagina.js"></script>
+		<!--[if lt IE 9]>
+		<script src="public/js/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<!--NOTA: por si solos, los tags semánticos no nos dan presentación, la presentación la
+		proporcionaremos mediante css -->
+
+		<!-- El encabezado principal de nuestra página -->
+
+		
+			<section id="seccion1" class="main-container active">
+				
+				<small id="msg" class="no-visible"> Enhorabuena!!! paso validaciones </small>
+
+				<p>
+					Nombre:
+					<input type="text" name="name" form="envioValidacion" id="campo1"
+					placeholder="No introducir datos">
+				</p>
+
+				<a href="javascript:change_page('seccion2')">Siguiente</a>
+			</section>
+
+			<!-- Sección de ejmplo -->
+			<section id="seccion2" class="main-container">
+
+				<p>
+					Apellido:
+					<input type="text" name="lastname" form="envioValidacion" id="campo2"
+					placeholder="No introducir datos">
+				</p>
+				
+				<form action="javascript:send_form()" method="post">
+					<input type="submit" id="envioValidacion" value="Enviar">
+				</form>
+
+			</section>
+
+			
+	</body>
+</html>

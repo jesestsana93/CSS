@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Ejemplo HTML5 - Aplicaciones Web</title>
+		<meta name="description" content="" />
+		<meta name="author" content="mangekyou" />
+
+		<meta name="viewport" content="width=device-width  initial-scale=1.0" />
+	<link href="animations.css" rel="stylesheet">
+	<link href="animations2.css" rel="stylesheet">
+		<link rel="shortcut icon" href="html5-ico.png" />
+
+	
+		<!--[if lt IE 9]>
+		<script src="public/js/html5shiv.js"></script>
+		<![endif]-->
+
+<script>
+
+
+function change_class(newClass){
+
+document.getElementById('example').className = newClass;
+}
+
+</script>
+
+<style>
+body{
+overflow: hidden;
+}
+
+#example{
+margin-left: 10%;
+padding:2em;
+width: 30%;
+/*height: 24em;*/
+transition:all 2s ease-in-out;
+perspective: 800px;
+perspective-origin: 50% 100px;
+}
+.menu{
+
+margin-right: 1em;
+list-style: none; 
+float: right;
+
+ -webkit-column-count: 3;  -webkit-column-gap: 2em; 
+    -moz-column-count: 3;     -moz-column-gap: 2em; 
+         column-count: 3;          column-gap: 2em; 
+}
+
+.menu li a{
+
+display:block;
+margin-bottom: .5em;
+padding: 0.4em .5em;
+text-decoration:none;
+font-weight: bolder;
+font-size:0.8em;
+text-transform: uppercase;
+text-shadow: #2d2f2d 1px 1px 2px;
+background: #FCAB14;
+color:#DB5A0A; 
+}
+
+</style>
+
+	</head>
+
+	<body>
+		<!--NOTA: por si solos, los tags semánticos no nos dan presentación, la presentación la
+		proporcionaremos mediante css -->
+
+		<!-- El encabezado principal de nuestra página -->
+		<ul class="menu">
+			<li>
+			<a href="#" onclick="change_class('slideDown')">Slidedown</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('slideUp')">slideUp</a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('slideLeft')">slideLeft</a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('slideRight')">slideRight</a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('slideExpandUp')">slideExpandUp</a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('fadeIn')">fadeIn</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('expandOpen')">expandOpen</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('expandUp')">expandUp</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('bigEntrance')">bigEntrance</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('hatch')">hatch</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('bounce')">bounce</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('pulse')">pulse</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('floating')">floating</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('tossing')">tossing</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('pullUp')">pullUp</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('pullDown')">pullDown</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('stretchLeft')">stretchLeft</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('stretchRight')">stretchRight</a>
+			</li>
+			
+			
+			<li>
+			<a href="#" onclick="change_class('rotater')">rotater</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('rotateX')">rotateX </a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('rotateY')">rotateY </a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('rotateZ')">rotateZ </a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('rotate')">rotate</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('border-radius')">borderRadius</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('matrix1')">Matrix1</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('matrix2')">Matrix2</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('matrix3')">Matrix3</a>
+			</li>
+			
+			<li>
+			<a href="#" onclick="change_class('gray')">gray</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('blur')">blur</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('sepia')">sepia</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('brightness')">brightness</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('contrast')">contrast</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('hue-rotate')">hue-rotate</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('invert')">invert</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('saturate')">saturate</a>
+			</li>
+			<li>
+			<a href="#" onclick="change_class('opacity')">opacity</a>
+			</li>
+			
+		</ul>
+		<img id='example' class="fadeIn" src="html5-logo.png" alt="">
+			
+	<div style="width:0;height:0;">
+		<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+		<filter id="grayscale">
+		<fecolormatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"/>
+		</filter>
+		</svg>
+		</div>	
+			
+	</body>
+</html>

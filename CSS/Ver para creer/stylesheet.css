@@ -1,0 +1,22 @@
+*{
+    border: 1px dashed #0000FF;
+}
+
+/* Genial, ¿verdad? Cada elemento de HTML tiene su propia caja para habitar.
+
+Como viste, la caja más externa de cada elemento ocupaba el ancho de toda la página. Es por esto que, hasta ahora, tus elementos de HTML habían estado uno encima del otro: ocupan el ancho completo de la página de forma predeterminada.
+
+Podemos cambiar todo esto con la primera propiedad de posicionamiento que aprenderemos: la propiedad display. Aprenderemos sobre cuatro valores posibles.
+
+block: esto vuelve al elemento una caja de bloque. ¡No permitirá que nada sea ubicado junto a él en la página! Ocupa el ancho completo.
+Ejemplo:para usar esta propiedad, se puede poner en un div display:block
+
+inline-block: Esto vuelve a un elemento una caja de bloque, pero permitirá que otros elementos sean ubicados junto a él en la misma línea.
+Ejemplo:para usar esta propiedad, se puede poner en un div display:inline-block
+
+inline: Esto hace que un elemento sea ubicado en la misma línea que otro elemento, pero sin darle formato como bloque. Solamente ocupa el ancho que requiera (pero no la línea completa).
+Ejemplo:para usar esta propiedad, se puede poner en un div display:inline
+
+none: ¡Esto hace que el elemento y su contenido desaparezcan por completo de la página!
+Ejemplo:para usar esta propiedad, se puede poner en un div display:none
+*/

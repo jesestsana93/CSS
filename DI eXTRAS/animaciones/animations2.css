@@ -1,0 +1,249 @@
+
+/*
+Animaciones
+
+Ramirez González Juan José
+40805879-1
+*/
+#example:hover, .gray {
+filter: url(filters.svg#grayscale);
+      filter: url('#grayscale'); 
+-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+        filter: grayscale(100%); 
+                 filter: Gray(); 
+
+-webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+
+/**Opacity**/
+/*
+#example:hover {
+  -webkit-animation: myanim 5s infinite; 
+     -moz-animation: myanim 5s infinite; 
+       -o-animation: myanim 5s infinite; 
+          animation: myanim 5s infinite; 
+}
+
+@-webkit-keyframes myanim {
+  0invert%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@-moz-keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@-o-keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+
+*/
+
+/**3d transform**/
+
+.3dtransform {
+  -webkit-perspective: 300px;  
+     -moz-perspective: 300px;  
+      -ms-perspective: 300px; 
+          perspective: 300px;
+  -webkit-transform: rotateY(180deg);  -webkit-transform-style: preserve-3d;
+     -moz-transform: rotateY(180deg);     -moz-transform-style: preserve-3d;
+      -ms-transform: rotateY(180deg);      -ms-transform-style: preserve-3d;
+          transform: rotateY(180deg);          transform-style: preserve-3d;
+          
+  -webkit-transition: all 0.3s ease-out;  
+     -moz-transition: all 0.3s ease-out;  
+       -o-transition: all 0.3s ease-out;   
+          transition: all 0.3s ease-out;  
+}
+.rotate{
+-webkit-transform: rotate(7.5deg);  
+     -moz-transform: rotate(7.5deg); 
+      -ms-transform: rotate(7.5deg); 
+       -o-transform: rotate(7.5deg); 
+          transform: rotate(7.5deg);
+}
+
+.scale{
+ -webkit-transform: scale(0.8);  
+     -moz-transform: scale(0.8); 
+      -ms-transform: scale(0.8);  
+       -o-transform: scale(0.8);  
+          transform: scale(0.8); 
+}
+.border-radius{
+background:#747880;
+ -webkit-border-radius: 2em; 
+          border-radius: 2em; 
+  
+  background-clip: padding-box; 
+}
+.matrix1{
+  -webkit-transform: matrix(1,-0.630,0,1,0,0);
+ -moz-transform: matrix(1,-0.630,0,1,0px,0px);
+      -ms-transform: matrix(1,-0.630,0,1,0,0);
+       -o-transform: matrix(1,-0.630,0,1,0,0);
+          transform: matrix(1,-0.630,0,1,0,0);
+}
+
+.matrix2{
+ -webkit-transform: matrix(-0.464,1.994,-1.624,1.346,0,0);
+-moz-transform: matrix(-0.464,1.994,-1.624,1.346,0px,0px);
+     -ms-transform: matrix(-0.464,1.994,-1.624,1.346,0,0);
+      -o-transform: matrix(-0.464,1.994,-1.624,1.346,0,0);
+         transform: matrix(-0.464,1.994,-1.624,1.346,0,0);
+}
+.matrix3{
+ -webkit-transform: matrix(-0.464,1.261,-1.624,-1.220,16.487,266.035);
+-moz-transform: matrix(-0.464,1.261,-1.624,-1.220,16.487px,266.035px);
+     -ms-transform: matrix(-0.464,1.261,-1.624,-1.220,16.487,266.035);
+      -o-transform: matrix(-0.464,1.261,-1.624,-1.220,16.487,266.035);
+         transform: matrix(-0.464,1.261,-1.624,-1.220,16.487,266.035);
+}
+
+.blur{
+-webkit-filter: blur(10px);
+	-moz-filter:blur(10px);
+  	 -ms-filter:blur(10px);
+	  -o-filter:blur(10px);
+	     filter:blur(10px);
+
+}
+
+.sepia{
+-webkit-filter:  sepia(0.7);
+	-moz-filter: sepia(0.7);
+  	 -ms-filter: sepia(0.7);
+	  -o-filter: sepia(0.7);
+	     filter: sepia(0.7);
+
+}
+
+.brightness{
+-webkit-filter:  brightness(0.5);
+	-moz-filter: brightness(0.5);
+  	 -ms-filter: brightness(0.5);
+	  -o-filter: brightness(0.5);
+	     filter: brightness(0.5);
+
+}
+
+.contrast{
+-webkit-filter:  contrast(10);
+	-moz-filter: contrast(10);
+  	 -ms-filter: contrast(10);
+	  -o-filter: contrast(10);
+	     filter: contrast(10);
+
+}
+
+.hue-rotate{
+-webkit-filter:  hue-rotate(180deg);
+	-moz-filter: hue-rotate(180deg);
+  	 -ms-filter: hue-rotate(180deg);
+	  -o-filter: hue-rotate(180deg);
+	     filter: hue-rotate(180deg);
+
+}
+
+.invert{
+-webkit-filter:  invert(0.5);
+	-moz-filter: invert(0.5);
+  	 -ms-filter: invert(0.5);
+	  -o-filter: invert(0.5);
+	     filter: invert(0.5);
+
+}
+.saturate{
+-webkit-filter:  saturate(10);
+	-moz-filter: saturate(10);
+  	 -ms-filter: saturate(10);
+	  -o-filter: saturate(10);
+	     filter: saturate(10);
+
+}
+.opacity{
+-webkit-filter:  opacity(0.5);
+	-moz-filter: opacity(0.5);
+  	 -ms-filter: opacity(0.5);
+	  -o-filter: opacity(0.5);
+	     filter: opacity(0.5);
+
+}
+
+
+.rotater{ 
+    /* safari / chrome */
+    -webkit-animation-name:rotater; 
+    -webkit-animation-duration:500ms; 
+    -webkit-animation-iteration-count:1; 
+    -webkit-animation-timing-function: ease-out;
+    
+    /* mozilla */
+    -moz-transform:rotate(360deg) scale(2);
+    -moz-transition-duration:500ms;
+    -moz-transition-timing-function: ease-out;
+    
+    /* opera */
+    -o-transform:rotate(360deg) scale(2);
+    -o-transition-duration:500ms;
+    -p-transition-timing-function: ease-out;
+    
+    /* ie */
+    -ms-transform:rotate(360deg) scale(2);
+    -ms-transform-duration:500ms;
+    -ms-transform-timing-function: ease-out;
+}
+
+@-webkit-keyframes rotater {
+    0% { -webkit-transform:rotate(0) scale(1) }
+50% { -webkit-transform:rotate(360deg) scale(2) }
+100% { -webkit-transform:rotate(720deg) scale(1) }
+}
+
+
+
+
+.rotateX {
+-webkit-transform:  rotateX(60deg);
+-moz-transform:     rotateX(60deg);
+     -ms-transform: rotateX(60deg);
+      -o-transform: rotateX(60deg);
+         transform: rotateX(60deg);
+         
+  
+}
+.rotateY {
+-webkit-transform:  rotateY(180deg);
+-moz-transform:     rotateY(180deg);
+     -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+         transform: rotateY(180deg);
+         
+  
+}
+.rotateZ {
+-webkit-transform:  rotateZ(120deg);
+-moz-transform:     rotateZ(120deg);
+     -ms-transform: rotateZ(120deg);
+      -o-transform: rotateZ(120deg);
+         transform: rotateZ(120deg);
+         
+  
+}

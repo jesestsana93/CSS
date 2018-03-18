@@ -1,0 +1,213 @@
+body{padding:0; margin:0; background:url(../images/b_body2.jpg) 0 0; color:#103140; font:14px/20px 'Droid Sans',Arial,sans-serif;}
+
+div, p, ul, h2, h3, h4, img, form, input, textarea{padding:0; margin:0;}
+
+ul{list-style-type:none;}
+
+.clear{clear:both; margin:0; height:0;}
+.clear#dotted_spacer{height:18px; border-bottom:#7f7f7f 1px dotted; margin-bottom:12px;}
+
+body, html{height:100%;}
+body, html{margin:0; padding:0;}
+
+p a{font:11px/16px Tahoma,sans-serif; color:#99c747; text-decoration:underline;}
+p a:hover{color:#f06601; text-decoration:none;}
+
+.headline{font:16px/18px 'Droid Sans',Arial,sans-serif; color:#60a56e; font-weight:bold; text-decoration:underline;}
+.headline2{font:40px/40px 'Droid Sans',Arial,sans-serif; color:#60a56e; font-weight:normal; text-decoration:none;}
+.headline2 span{color:#d8892d; font-weight:bold;}
+
+#inbody{width:100%; background:url(../images/b_body.jpg) 0 0 repeat-x; margin:0 auto; min-height:100%; height:100%; display:table;}
+#container{width:1158px; background:url(../images/b_coffee2.jpg) 0 0 repeat-y; margin:0 auto; min-height:100%; height:100%; display:table;}
+#incontainer{width:1158px; background:url(../images/b_coffee.jpg) 0 0 no-repeat; margin:0 auto; min-height:100%; height:100%; display:table;}
+
+ul.bubble li{padding:0 0 0 17px; margin-bottom:14px;}
+ul.bubble li a{font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-decoration:none;}
+ul.bubble li a:hover{color:#103140; text-decoration:underline;}
+ul.bubble li.bubble1{background:url(../images/bubble1.png) 0 7px no-repeat;}
+ul.bubble li.bubble2{background:url(../images/bubble2.png) 0 7px no-repeat;}
+ul.bubble li.bubble3{background:url(../images/bubble3.png) 0 7px no-repeat;}
+ul.bubble li.bubble4{background:url(../images/bubble4.png) 0 7px no-repeat;}
+ul.bubble li.bubble5{background:url(../images/bubble5.png) 0 7px no-repeat;}
+ul.bubble li.bubble6{background:url(../images/bubble6.png) 0 7px no-repeat;}
+
+/* MENU PAN */
+
+#menuPan{width:916px; height:85px; position:relative; background:url(../images/top_line.png) 0 0 no-repeat; margin-left:132px;}
+#menuPan ul.menu{position:absolute; top:32px; left:37px; width:879px; height:45px;}
+#menuPan ul.menu li{float:left; height:45px; margin-right:34px;}
+#menuPan ul.menu li a{height:45px; display:block; text-indent:-20000px;}
+#menuPan ul.menu li a:hover{height:45px;}
+#menuPan ul.menu li.b01 a{width:170px; background:url(../images/btn_1.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b01 a:hover{width:170px; background:url(../images/btn_1_over.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b02 a{width:149px; background:url(../images/btn_2.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b02 a:hover{width:149px; background:url(../images/btn_2_over.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b03 a{width:142px; background:url(../images/btn_3.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b03 a:hover{width:142px; background:url(../images/btn_3_over.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b04 a{width:127px; background:url(../images/btn_4.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b04 a:hover{width:127px; background:url(../images/btn_4_over.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b05{margin-right:0;}
+#menuPan ul.menu li.b05 a{width:121px; background:url(../images/btn_5.png) 0 0 no-repeat;}
+#menuPan ul.menu li.b05 a:hover{width:121px; background:url(../images/btn_5_over.png) 0 0 no-repeat;}
+
+/* LOGO PAN */
+
+#logoPan{width:916px; height:154px; position:relative; background:url(../images/menu_line.png) 0 0 no-repeat; margin-left:132px;}
+#logoPan img#logo{position:absolute; top:22px; left:43px;}
+#logoPan img#slogan{position:absolute; top:45px; left:314px;}
+
+/* SLIDE PAN */
+
+#slidePan{width:904px; height:284px; position:relative; background:url(../images/b_thumbs.png) 0 0 no-repeat; margin-left:132px; padding:21px 0 0 12px; margin-bottom:25px;}
+#slideshow{margin:0 auto; width:893px; height:263px; position:relative;}
+#slideshow #slidesContainer{margin:0 0 0 25px; width:830px; height:263px; overflow:auto; /* allow scrollbar */position:relative;}
+#slideshow #slidesContainer .slide{margin:0; width:830px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */height:263px;}
+
+/** 
+ * Slideshow controls style rules.
+ */
+
+.control{display:block; width:24px; height:36px; text-indent:-10000px; position:absolute; cursor:pointer;}
+
+#leftControl{top:114px; left:0; background:transparent url(../images/slide_arrow_left.png) no-repeat 0 0;}
+
+#rightControl{top:114px; right:11px; background:transparent url(../images/slide_arrow_right.png) no-repeat 0 0;}
+
+.thumb_back{width:261px; height:261px; float:left; margin-right:20px; position:relative; background:url(../images/back_images2.gif) 0 0; padding:1px;}
+
+.last{margin-right:0;}
+
+/* CONTENT PAN */
+
+#contentPan{width:924px; position:relative; margin-left:128px; background:url(../images/b_content.png) bottom no-repeat; clear:both;}
+#contentPan2{width:872px; position:relative; margin-left:26px; background:url(../images/b_content_pages.png) 0 0 repeat-x; padding-top:21px; clear:both;}
+
+/* FOOTER PAN */
+
+#footerPan{width:916px; margin:0 0 0 132px; position:relative; clear:both;}
+#footerPan p{padding:15px 0 20px 44px; color:#103140; font:14px/20px 'Droid Sans',Arial,sans-serif; font-weight:normal; text-align:left;}
+#footerPan p a{color:#103140; font:14px/20px 'Droid Sans',Arial,sans-serif; font-weight:normal; text-decoration:none;}
+#footerPan p a:hover{text-decoration:underline;}
+#footerPan p span{font:12px/20px 'Droid Sans',Arial,sans-serif; color:#958c65; display:block; padding-top:3px;}
+#footerPan p span a{color:#958c65; font:12px/20px 'Droid Sans',Arial,sans-serif; font-weight:normal; text-decoration:none;}
+#footerPan p span a:hover{text-decoration:underline;}
+#footerPan #follow{width:312px; position:absolute; top:15px; left:604px;}
+#footerPan #follow img{float:left; margin-right:5px;}
+#footerPan #follow img.follow_icon{padding-top:2px;}
+
+/* INDEX DIVS */
+
+#about{width:265px; margin:0 20px 0 44px; float:left; display:inline;}
+#about h2{height:49px; position:relative; background:url(../images/h_about.png) 0 0 no-repeat; margin-bottom:5px;}
+#about p{margin-bottom:37px; margin-left:4px;}
+#about p.headline{margin-bottom:15px;}
+#about img.btn_more{margin-left:2px;}
+
+#vision{width:265px; margin:0 20px 0 0; float:left;}
+#vision h2{height:49px; position:relative; background:url(../images/h_vision.png) 0 0 no-repeat; margin-bottom:5px;}
+#vision p{margin-left:4px;}
+#vision p.headline{margin-bottom:22px;}
+#vision ul{margin-left:10px;}
+
+#news{width:265px; margin:0; float:left;}
+#news h2{height:49px; position:relative; background:url(../images/h_news.png) 0 0 no-repeat; margin-bottom:13px;}
+
+.news_story{margin:0 0 21px 1px;}
+.news_story p{margin:0 0 0 24px; color:#103140; font:14px/20px 'Droid Sans',Arial,sans-serif;}
+.news_story p a{color:#103140; font:14px/20px 'Droid Sans',Arial,sans-serif; text-decoration:none;}
+.news_story p a:hover{text-decoration:underline;}
+.news_story p.story_date{width:95px; height:20px; background:url(../images/b_date.png) 0 0 no-repeat; padding:3px 0 0 15px; font:16px/18px 'Droid Sans',Arial,sans-serif; color:#60a56e; font-weight:bold; margin:0 0 7px 0;}
+
+#news img.btn_more{margin-top:-2px;}
+
+/* ABOUT ME DIVS */
+
+#about_me{width:830px; margin:0 auto 56px auto;}
+#about_me_img{width:261px; height:261px; padding:1px; background:url(../images/back_images2.gif) 0 0; float:left; margin-right:40px;}
+#about_me h2{height:49px; position:relative; background:url(../images/h_about_me.png) 0 0 no-repeat; margin-bottom:12px; width:520px; float:left;}
+#about_me p{padding-left:4px; width:520px; float:left;}
+#about_me p.headline{margin-bottom:15px;}
+
+#education{width:265px; margin:0 40px 0 22px; float:left; display:inline;}
+#education h2{height:36px; position:relative; background:url(../images/h_education.png) 0 0 no-repeat; margin-bottom:17px;}
+#education p{margin-left:4px; padding-right:30px;}
+#education p.headline{margin-bottom:25px;}
+
+#design_experience{width:520px; margin:0; float:left;}
+#design_experience h2{height:36px; position:relative; background:url(../images/h_design_experience.png) 0 0 no-repeat; margin-bottom:17px;}
+#design_experience p{margin-left:4px;}
+
+p.jobs{width:230px; margin:25px 20px 0 0; float:left;}
+
+/* PORTFOLIO DIVS */
+
+#portfolio_wrapper{width:872px; position:relative; background:url(../images/b_spacer_line.gif) 0 0 repeat-y; padding-top:4px;}
+
+#folio{width:265px; margin:0 20px 0 17px; float:left; display:inline;}
+#folio h2{height:49px; position:relative; background:url(../images/h_folio.png) 0 0 no-repeat; margin-bottom:12px;}
+#folio ul{margin-left:11px;}
+#folio ul li{padding:0 0 0 17px; margin-bottom:14px; font:16px/20px 'Droid Sans',Arial,sans-serif; color:#103140; font-weight:bold; background:url(../images/bubble1.png) 0 7px no-repeat;}
+#folio ul li ul{padding:8px 0 0 0;}
+#folio ul li ul li{padding:0 0 0 10px; margin-bottom:8px; font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; font-weight:normal; background:none;}
+#folio ul li ul li a{font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-decoration:none;}
+#folio ul li ul li a.current{color:#60a56e; text-decoration:underline;}
+#folio ul li ul li a:hover{color:#60a56e; text-decoration:underline;}
+
+#folio_item{width:555px; margin:11px 0 40px 0; float:left;}
+#folio_item h2#art_gallery{height:36px; position:relative; background:url(../images/h_art_gallery.png) 0 0 no-repeat; margin-bottom:15px;}
+#folio_item h2#luxury_restaurant{height:36px; position:relative; background:url(../images/h_luxury_restaurant.png) 0 0 no-repeat; margin-bottom:15px;}
+#folio_item h2#dog_trainer{height:36px; position:relative; background:url(../images/h_dog_trainer.png) 0 0 no-repeat; margin-bottom:15px;}
+
+#slides_container{width:545px; padding:1px; background:url(../images/back_images2.gif) 0 0; position:relative; margin:0 0 23px 2px;}
+#slide_link{float:left;}
+#slide_link p{padding:0 0 0 45px; background:url(../images/arrow_link.png) 0 0 no-repeat; margin-left:2px;}
+#slide_link p a{font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-decoration:underline;}
+#slide_link p a:hover{color:#60a56e; text-decoration:none;}
+
+/* FOLIO GALLERY */
+
+.paginationstyle{width:284px; padding:0 6px 0 0; margin:0 0; float:right; text-align:right;}
+.paginationstyle a{/*Pagination links style*/padding:4px 7px; margin-left:18px; text-decoration:none; font:14px/20px 'Droid Sans',Arial,sans-serif; color:#103140; background:url(../images/gallery_btn.png) 0 0 no-repeat; color:#103140;}
+.paginationstyle a:hover, .paginationstyle a.selected{background:url(../images/gallery_btn_over.png) 0 0 no-repeat; color:#fff;}
+.paginationstyle .flatview a:hover, .paginationstyle .flatview a.selected{/*Pagination div "flatview"links style*/background:url(../images/gallery_btn_over.png) 0 0 no-repeat; color:#fff;}
+
+/* SERVICES DIVS */
+
+#services{width:830px; margin:0 auto 56px auto; background:url(../images/img_services.png) right 25px no-repeat; min-height:260px;}
+#services h2{height:49px; position:relative; background:url(../images/h_services.png) 0 0 no-repeat; margin-bottom:12px;}
+#services p{width:525px; margin:0 0 0 5px;}
+#services p.headline{margin:0 0 17px 5px;}
+
+#web_design{width:265px; margin:0 17px 0 22px; float:left; display:inline;}
+#web_design h2{height:36px; position:relative; background:url(../images/h_web_design.png) 0 0 no-repeat; margin-bottom:17px;}
+#web_design p.headline{margin-left:4px; margin-bottom:25px;}
+#web_design ul{margin-left:8px;}
+
+#branding{width:265px; margin:0 17px 0 0; float:left; display:inline;}
+#branding h2{height:36px; position:relative; background:url(../images/h_branding.png) 0 0 no-repeat; margin-bottom:17px;}
+#branding p.headline{margin-left:4px; margin-bottom:25px;}
+#branding ul{margin-left:8px;}
+
+#print_design{width:265px; margin:0; float:left;}
+#print_design h2{height:36px; position:relative; background:url(../images/h_print_design.png) 0 0 no-repeat; margin-bottom:17px;}
+#print_design p.headline{margin-left:4px; margin-bottom:25px;}
+#print_design ul{margin-left:8px;}
+
+/* CONTACT DIVS */
+
+#contact_me{width:830px; margin:0 auto 58px auto; background:url(../images/img_contact_me.png) 577px 6px no-repeat; min-height:260px;}
+#contact_me h2{height:49px; position:relative; background:url(../images/h_contact_me.png) 0 0 no-repeat; margin-bottom:12px;}
+#contact_me p{width:525px; margin:0 0 0 5px;}
+#contact_me p.headline2{margin-bottom:20px;}
+
+#drop_me_a_line{width:833px; margin:0 0 0 22px;}
+#drop_me_a_line h2{height:36px; position:relative; background:url(../images/h_drop_me_a_line.png) 0 0 no-repeat; margin-bottom:17px;}
+
+.input1{width:233px; height:15px; background:url(../images/b_input1.png) 0 0 no-repeat; padding:15px 15px; font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-transform:uppercase; border:none; float:left; margin-right:21px;}
+.input2{width:233px; height:15px; background:url(../images/b_input1.png) 0 0 no-repeat; padding:15px 15px; font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-transform:uppercase; border:none; float:left; margin-right:0;}
+.input3{width:800px; height:102px; background:url(../images/b_input2.png) 0 0 no-repeat; padding:15px 15px; font:14px/16px 'Droid Sans',Arial,sans-serif; color:#103140; text-transform:uppercase; border:none; clear:both; margin-bottom:20px;}
+
+.submit-button{width:154px; height:23px; background:url(../images/btn_send.png) 0 0 no-repeat; text-indent:-10000px; display:block; margin-left:567px; border:none;}
+
+#form_message{width:830px; height:200px; text-align:center; padding-top:150px;}
+#form_message #slide_link{margin-left:320px; margin-top:30px;}

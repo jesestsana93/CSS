@@ -1,0 +1,136 @@
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	margin: 0;
+	padding: .2em;
+}
+
+.menu ul li a {
+	padding-top: .2em;
+	padding-left: 10px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	opacity: .3;
+	filter: alpha(opacity = 30);
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+.menu ul li ul a {
+	margin-top: 0;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	opacity: .3;
+	filter: alpha(opacity = 30);
+	font-size: 30%;
+	font-weight: normal;
+	background: #0D0D0D;
+}
+
+.menu ul li a:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	color: #DB5A0A;
+	-webkit-animation: myTransition 1s 1;
+	-moz-animation: myTransition 1s 1;
+	-ms-animation: myTransition 1s 1;
+	-o-animation: myTransition 1s 1;
+}
+
+.menu ul li ul a:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	color: #FCAB14;
+	-webkit-animation: myTransition 1s 1;
+	-moz-animation: myTransition 1s 1;
+	-ms-animation: myTransition 1s 1;
+	-o-animation: myTransition 1s 1;
+}
+
+.menu ul li ul {
+	display: none;
+}
+
+/*........*/
+#float-box ul {
+	padding: 5px;
+	list-style: none;
+}
+
+#float-box ul  li {
+	width: 22px;
+	height: 22px;
+	font-size: 20px;
+	margin: 0;
+}
+
+#float-box ul li a:hover {
+	background: #5B5B5B;
+	-webkit-transform: scale(2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	filter: progid:DXImageTransform.Microsoft.Matrix(
+	M11=0.9999025240093042, M12=-0.013962180339145272,
+	M21=0.013962180339145272, M22=0.9999025240093042, SizingMethod='auto expand'
+	);
+}
+
+/*Animacion*/
+@-webkit-keyframes myTransition {
+0% {
+	opacity: 0.3;
+}
+
+50%{
+	opacity: 0.65;
+}
+100%{
+	opacity:1.0;
+}
+}/*WEBKIT*/
+@-moz-keyframes myTransition {
+
+0% {
+	opacity: 0.3;
+}
+
+50%{
+	opacity: 0.65;
+}
+100%{
+	opacity: 1.0;
+}
+}/*MOZ*/
+@-ms-keyframes myTransition {
+0% {
+	opacity: 0.3;
+}
+
+50%{
+	opacity:0.65;
+}
+100%{
+	opacity:1.0;
+}
+}/*ms*/
+
+@-o-keyframes myTransition {
+0% {
+	opacity: 0.3;
+}
+
+50%{
+	opacity:0.65;
+}
+100%{
+	opacity:1.0;
+}
+}/*O*/

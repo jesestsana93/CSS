@@ -1,0 +1,130 @@
+@import url('reset.css');
+
+/*Body*/
+body {
+	font-family: 'Averia Libre', cursive;
+	font: 62.5% Tahoma, Arial, Sans-Serif !important;
+	text-transform: uppercase;
+	background-color: #000;
+}
+
+#image-background {
+	position: fixed;
+	opacity: .5;
+}
+
+#header {
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
+	width: 35%;
+	height: 100%;
+	vertical-aling: center;
+}
+
+#header .menu {
+	padding-top: 2%;
+	padding-left: 10%;
+	font-size: 4em;
+	overflow: visible;
+	margin: 5%;
+}
+
+#header .menu ul {
+	overflow: visible;
+	list-style: none;
+}
+
+#header .menu ul li {
+	float: left;
+	width: 80%;
+}
+
+#header .menu ul li ul li {
+	width: 20%;
+}
+
+/*Posicionamiento de Texto*/
+/*Container*/
+#container {
+	margin: 0% 5% 5% 40%;
+	width: 50%;
+	height: 80%;
+	overflow: hidden;
+}
+
+#content {
+	overflow: hidden;
+	margin: 10% auto;
+	background: #151515;
+}
+
+#texto {
+	position: relative;
+	color: #747880;
+}
+
+.secciones {
+	float: right;
+	margin: 1% 4%;
+	padding: 20px;
+	text-aling: justify;
+	overflow: hidden;
+	top: 10%;
+}
+
+.secciones > div {
+	overflow: hidden;
+	font-size: 130%;
+}
+
+.secciones div h1 {
+	font-size: 250%;
+	padding: 5% auto 0;
+	color: #fff;
+	font-weight: bold;
+}
+
+.secciones div h2 {
+	font-size: 150%;
+	padding: 0 3% 5%;
+	margin-down: 10%;
+}
+
+.secciones div p {
+	margin-bottom: 2%;
+	margin-right: 15%;
+}
+
+.secciones a.ruta {
+	float: left;
+	text-decoration: none;
+}
+
+.secciones div ul li {
+	padding: 1% 1.5%;
+}
+
+.secciones a:hover {
+	text-decoration: underline;
+	color: #EAEAEA;
+}
+
+#texto img {
+	float: left;
+}
+
+#footer {
+	margin: 10% 5% 5% 50%;
+	width: 50%;
+}
+
+#footer ul#firma {
+	float: left;
+}
+
+#footer ul#firma li {
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+

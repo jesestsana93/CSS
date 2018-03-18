@@ -1,0 +1,130 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1; /**/
+	position: fixed; /**/
+	width: 97.5%;
+	margin-top: -20px; /**/
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
+}
+
+#name {
+	float:left; /**/
+	margin-left: 5px; 
+	padding-top: 5px; /***/
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Garamond, serif;
+	color: #000000;
+}
+
+li {
+	list-style-type: square;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 400px;
+	background-color: #B9D7D9;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 400px;
+	background-color: #F4EBC3;
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #668284;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+
+/*
+Margin (margen):; es el espacio alrededor del elemento. Entre más grande, habrá más espacio entre nuestro elemento y los que lo rodean.
+Podemos ajustar el margen para mover nuestros elementos de HTML más cerca o más lejos unos de otros.
+margin-top: algún valor
+margin-right: algún valor
+margin-bottom: algún valor
+margin-left: algún valor
+margin: 1px 2px 3px 4px;
+
+Border: es el borde del elemento. Es lo que hemos estado haciendo visible cada vez que establecemos la propiedad border.
+
+Padding (relleno): es el espacio entre el contenido y el borde. Con CSS, podemos ajustar este valor para mover el borde más cerca o
+más lejos del contenido.
+padding-top: algún valor
+padding-right: algún valor
+padding-bottom: algún valor
+padding-left: algún valor
+O puedes seleccionarlos todos en una sola declaración, así: padding: valor valor valor valor;
+
+Content: es el contenido dentro de la caja. Si estamos hablando de un elemento <p>, el contenido es el texto del párrafo.
+
+Cuando usas float con un elemento en la página, le estás indicando a la página: "Estoy a punto de decirte donde ubicar este elemento,
+pero tienes que colocarlo dentro del flujo de los demás elementos."Esto quiere decir que si tienes varios elementos flotantes, todos 
+saben que los demás están allí, y ninguno se superpone.
+
+Si usas la propiedad clear: left en un elemento, este inmediatamente se desplazará debajo de cualquier elemento flotante en el lado 
+izquierdo de la página; también se puede usar right para desplazarlo hacia el lado derecho.¡También puedes usar clear: both para que
+se aparte de los elementos que están en la izquierda y en la derecha!
+TIPOS DE POSICIONAMIENTO:
+El primer tipo de posicionamiento es posicionamiento absoluto. Cuando se establece un elemento con position: absolute, se posiciona
+en relación con el primer elemento padre que tiene y que no esté establecido con position: static.
+El posicionamiento relativo es más simple: le indica al elemento que se desplace respecto al lugar donde se encontraría si tuviera 
+el posicionamiento predeterminado static.
+Por último, el posicionamiento fijo ancla un elemento a la ventana del navegador. Imagina que es como pegar el elemento a la pantalla.
+Si desplazas la pantalla hacia arriba y hacia abajo, el elemento fijo se mantiene en su lugar, incluso mientras otros elementos son desplazados.
+Piensa en z-index como una medida de importancia: entre más alto sea el z-index de un elemento, más "alto" se verá el elemento en la página.
+Si le das un z-index de 1 a tu encabezado, mientras que no le das ningún z-index a los demás elementos, asegurarás que tu encabezado se asiente
+"encima" de tus demás elementos y que no se vea cubierto por ninguno de ellos.
+*/
