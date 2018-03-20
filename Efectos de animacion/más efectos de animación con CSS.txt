@@ -1,0 +1,14 @@
+Más efectos de animación CSS
+
+1. https://tympanus.net/Development/3DBookShowcase/
+2. https://tympanus.net/codrops/2011/02/02/3d-wall-gallery/
+3. https://tympanus.net/Tutorials/AnimatedTextIconMenu/example1.html
+4. https://tympanus.net/Development/BookBlock/
+5. https://tympanus.net/Development/BurstingGiftBox/
+6. https://tympanus.net/Development/CassettePlayer/
+7. https://tympanus.net/codrops/2011/04/11/circular-discography-template/
+8. https://tympanus.net/Development/CreativeLinkEffects/
+9. https://tympanus.net/codrops/2011/02/09/fullscreen-gallery-with-thumbnail-flip/
+10. https://tympanus.net/Development/IconHoverEffects/
+11. https://tympanus.net/Tutorials/ItemSlider/
+12. https://tympanus.net/Development/Unfolding3DThumbnailsConcept/
