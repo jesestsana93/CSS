@@ -1,0 +1,36 @@
+﻿ANIMACIÓN PARA GALERÍA DE IMÁGENES
+
+1. https://tympanus.net/Development/3DGalleryRoom/index.html
+2. https://tympanus.net/Development/3DGridEffect/index2.html
+3. https://tympanus.net/Tutorials/3DHoverEffects/
+4. https://tympanus.net/Development/3YearsOfCodrops/
+5. 6. https://tympanus.net/Tutorials/BorderAnimationSVG/
+7. https://tympanus.net/Tutorials/CaptionHoverEffects/index.html
+8. https://tympanus.net/Tutorials/CircleHoverEffects/
+9. https://tympanus.net/Development/CircularContentCarousel/
+10. https://tympanus.net/Development/ContentRotator/example1.html 
+11. http://www.alessioatzeni.com/wp-content/tutorials/html-css/CSS3-Hover-Effects/index.html 
+12. https://tympanus.net/Tutorials/CSS3Lightbox/ 
+13. https://tympanus.net/TipsTricks/DirectionAwareHoverEffect/
+14. https://tympanus.net/Tutorials/DraggableImageBoxesGrid/ 
+15. https://tympanus.net/Tutorials/ExpandingOverlayEffect/
+16. https://tympanus.net/Development/FullscreenImage3DEffect/ 
+17. https://tympanus.net/Tutorials/FullscreenSlitSlider/
+18. https://tympanus.net/Development/GridNavigationEffects/example5.html
+19. https://tympanus.net/Tutorials/HexaFlip/index3.html
+20. https://tympanus.net/Development/HoverEffectIdeas/index2.html
+21. https://tympanus.net/Development/ImageTransitions/index.html
+22. ‌https://tympanus.net/Tutorials/ImageWall/
+23. https://tympanus.net/Development/ItemTransitions/index.html
+24. 25. https://tympanus.net/Tutorials/OriginalHoverEffects/index.html
+26. https://tympanus.net/Tutorials/PhotoBoothStripsLightbox/
+27. https://tympanus.net/Tutorials/ResponsiveImageGallery/
+28. https://tympanus.net/Tutorials/RotatingImageSlider/
+29. https://tympanus.net/codrops/2014/01/28/scattered-polaroids-gallery/
+30. https://tympanus.net/Tutorials/ShapeHoverEffectSVG/
+31. https://tympanus.net/Development/Slicebox/
+32. https://tympanus.net/Development/VerticalSlidingAccordion/example1.html
+33. https://tympanus.net/Development/WaveDisplayEffect/
+34. https://www.queness.com/resources/html/zoomthumbnail/index.html 
+35. 36. http://hasinhayder.github.io/ImageCaptionHoverAnimation/index4.html
+37. http://sachinchoolur.github.io/lightGallery/#lg=1&slide=1
